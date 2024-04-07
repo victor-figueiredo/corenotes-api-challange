@@ -10,9 +10,17 @@ Esta Api permite:
 
 Desenvolvida em PHP 7.4, utilizando Laravel 8.
 
-Pronta para ser utilizada com o front-end feito em React(<a href="https://github.com/victor-figueiredo/corenotes-web-challange-react">link do repositório</a>), que ao conectar deve exibir a lista de tarefas do usuário de maneira responsiva e visualmente atraente.
+Pronta para ser utilizada com o front-end feito em React(<a href="https://github.com/victor-figueiredo/corenotes-web-challange-react">link do repositório front-end</a>), que ao conectar deve exibir a lista de tarefas do usuário de maneira responsiva e visualmente atraente.
 
-## Passos para utilizar este Back-end no seu computador
+## Passos para rodar este Back-end no seu computador
+
+### Pré-requisitos
+- PHP >= ^7.4
+- Laravel: ^8.0
+- Node: ^16.15.0
+- NPM: ^8.5.5
+- Framework: React TS
+
 ### 1 - Clonando o repositório
 ```bash
 git clone git@github.com:victor-figueiredo/corenotes-api-challange-php.git
