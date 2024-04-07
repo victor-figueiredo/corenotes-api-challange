@@ -8,9 +8,7 @@ Esta Api permite:
 3. Definir uma cor para cada anotação.
 4. As anotações favoritas serão retornadas no topo da lista.
 
-Desenvolvida em PHP 7.4, utilizando Laravel 8.
-
-Pronta para ser utilizada com o front-end feito em React(<a href="https://github.com/victor-figueiredo/corenotes-web-challange-react">link do repositório front-end</a>), que ao conectar deve exibir a lista de tarefas do usuário de maneira responsiva e visualmente atraente.
+Pronta para ser utilizada com o front-end feito em React TS(<a href="https://github.com/victor-figueiredo/corenotes-web-challange-react">link do repositório front-end</a>), que ao conectar deve exibir a lista de tarefas do usuário de maneira responsiva e visualmente atraente.
 
 ## Passos para rodar este Back-end no seu computador
 
