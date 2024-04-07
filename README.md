@@ -51,4 +51,4 @@ php artisan migrate
 php artisan serve
 ```
 
-### Eu, Victor Figueiredo, sou grato a Corelab pela oportunidade, poder participar deste processo é muito satisfatório.
+#### 👋 Eu, Victor Figueiredo, sou grato a Corelab pela oportunidade, conhecer um pouco desta empresa e poder participar deste processo é muito satisfatório.
