@@ -33,10 +33,11 @@ composer install
 ### 3 - Crie um arquivo de banco de dados sqlite
 #### 3.1 - Windows
 ```bash
+# Prompts WSL (git bash, cmder...)
+touch database/database.sqlite
+# OU
 # Prompt de comando windows:
 type nul > database/database.sqlite
-# Git bash
-touch database/database.sqlite
 ```
 #### 3.2 - linux ou macOS
 ```bash
