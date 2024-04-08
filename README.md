@@ -15,9 +15,6 @@ Pronta para ser utilizada com o front-end feito em React TS(<a href="https://git
 ### Pré-requisitos
 - PHP >= ^7.4
 - Laravel: ^8.0
-- Node: ^16.15.0
-- NPM: ^8.5.5
-- Framework: React TS
 
 ### 1 - Clonando o repositório
 ```bash
