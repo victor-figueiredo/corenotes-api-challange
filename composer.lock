@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "681293f356606c23055339ed0eb16647",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1030,6 +1030,59 @@
             "time": "2023-12-03T20:05:35+00:00"
         },
         {
+            "name": "laravel-validation-rules/colour",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-validation-rules/colour.git",
+                "reference": "41d55df1bda5009436de32f49a07e3d829643204"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-validation-rules/colour/zipball/41d55df1bda5009436de32f49a07e3d829643204",
+                "reference": "41d55df1bda5009436de32f49a07e3d829643204",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.0|^7.0|^8.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LVR\\Colour\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ashley Clarke",
+                    "email": "me@ashleyclarke.me"
+                },
+                {
+                    "name": "Scott Robinson",
+                    "email": "scott@dor.ky"
+                }
+            ],
+            "description": "Validate colours",
+            "keywords": [
+                "colour",
+                "laravel",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-validation-rules/colour/issues",
+                "source": "https://github.com/laravel-validation-rules/colour/tree/1.7.0"
+            },
+            "time": "2023-02-15T15:19:08+00:00"
+        },
+        {
             "name": "laravel/framework",
             "version": "v8.83.27",
             "source": {
@@ -1204,16 +1257,16 @@
         },
         {
             "name": "laravel/sanctum",
-            "version": "v2.15.1",
+            "version": "v2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473"
+                "reference": "5be160413b6f37dcf8758663edeab12d0e806f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473",
-                "reference": "31fbe6f85aee080c4dc2f9b03dc6dd5d0ee72473",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/5be160413b6f37dcf8758663edeab12d0e806f56",
+                "reference": "5be160413b6f37dcf8758663edeab12d0e806f56",
                 "shasum": ""
             },
             "require": {
@@ -1265,7 +1318,7 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2022-04-08T13:39:49+00:00"
+            "time": "2022-03-28T13:53:05+00:00"
         },
         {
             "name": "laravel/serializable-closure",

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Notes extends Model
 {
@@ -13,6 +14,11 @@ class Notes extends Model
         'title',
         'content',
         'color',
-        'isFavorite'
+        'isFavorite',
+        'user_id'
     ];
+
+    public function user() : BelongsTo{
+        return $this->belongsTo(User::class);
+    }
 }

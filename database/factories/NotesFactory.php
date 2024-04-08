@@ -16,7 +16,6 @@ class NotesFactory extends Factory
         return [
             'title' => $this->faker->sentence(3),
             'content' => $this->faker->paragraph(3),
-            'color' => $this->faker->hexColor(),
             'isFavorite' => $this->faker->boolean()
         ];
     }
