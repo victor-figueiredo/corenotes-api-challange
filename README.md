@@ -1,12 +1,11 @@
 ## CoreNotes Back-end Api Challange
 
-Consiste em um sistema back-end para gerenciamento de Notes(Anotações) do CoreNotes, desenvolvida aproveitando a facilidade da comunicação entre os componentes proposta pelo laravel, e utilizando estrutura MVC.
-
-Esta Api permite:
-1. Criar, listar(com filtros de título, conteúdo ou cor), atualizar, excluir e ordenar por favoritos.
-2. Marcar uma anotação como favorita.
-3. Definir uma cor para cada anotação.
-4. As anotações favoritas serão retornadas no topo da lista.
+Consiste em um sistema back-end para gerenciamento de Notes(Anotações) do CoreNotes, desenvolvida com laravel 8, aproveitando a facilidade da comunicação entre os componentes proposta pelo framework, utilizando estrutura MVC, a api faz conexão com o banco de dados, cuidando da regra de negócio, armazenamento de dados, autenticação de usuário, com ela é possível:
+1. Criar conta, utilizando nome, email e senha do usuário, estrutura de tabela que já vem preparada no laravel.
+2. Fazer login e gerenciar suas notas que só você poderá ter acesso, já que a api conta com um relacionamento entre as duas tabelas, User e Notes. A autenticação foi feita com Sanctum, pré-instalado pela laravel.
+2. Criar, listar(com filtros de título e cor), editar e excluir uma nota. 
+3. Marcar uma anotação como favorita, inclusive a lista é ordenada por favoritos, de maneira decrescente.
+4. Define uma cor para cada anotação.
 
 Pronta para ser utilizada com o front-end feito em React TS(<a href="https://github.com/victor-figueiredo/corenotes-web-challange-react">link do repositório front-end</a>), que ao conectar deve exibir a lista de tarefas do usuário de maneira responsiva e visualmente atraente.
 
