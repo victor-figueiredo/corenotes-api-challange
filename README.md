@@ -48,4 +48,6 @@ php artisan migrate
 php artisan serve
 ```
 
+### Se você ainda não rodou o front-end da aplicação na sua máquina, <a href="https://github.com/victor-figueiredo/corenotes-web-challange-react">clique aqui</a> para acessar o repositório para clonar e seguir o passo a passo das configurações.
+
 #### 👋 Eu, Victor Figueiredo, sou grato a Corelab pela oportunidade, conhecer um pouco desta empresa e poder participar deste processo é muito satisfatório.
